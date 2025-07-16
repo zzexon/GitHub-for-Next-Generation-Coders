@@ -1,0 +1,61 @@
+{
+  "type": "line",
+  "data": {
+    "labels": ["2018", "2019", "2020", "2021", "2022", "2023", "2024"],
+    "datasets": [
+      {
+        "label": "Node.js",
+        "data": [49.0, 47.5, 45.0, 47.0, 47.12, 47.5, 47.12],
+        "borderColor": "#3c873a",
+        "fill": false
+      },
+      {
+        "label": "Django",
+        "data": [18.0, 18.5, 19.0, 18.8, 18.5, 18.7, 19.0],
+        "borderColor": "#092e20",
+        "fill": false
+      },
+      {
+        "label": "React",
+        "data": [28.0, 32.0, 35.9, 40.0, 42.62, 42.0, 42.62],
+        "borderColor": "#61dafb",
+        "fill": false
+      },
+      {
+        "label": "Angular",
+        "data": [36.9, 33.0, 25.1, 22.0, 21.5, 20.5, 20.0],
+        "borderColor": "#dd1b16",
+        "fill": false
+      },
+      {
+        "label": "Flask",
+        "data": [12.0, 12.5, 13.0, 13.5, 14.64, 14.8, 15.0],
+        "borderColor": "#000000",
+        "fill": false
+      }
+    ]
+  },
+  "options": {
+    "plugins": {
+      "title": {
+        "display": true,
+        "text": "Trendovi popularnosti web frameworkova (2018–2024)"
+      }
+    },
+    "scales": {
+      "y": {
+        "beginAtZero": true,
+        "title": {
+          "display": true,
+          "text": "Procenat korišćenja (%)"
+        }
+      },
+      "x": {
+        "title": {
+          "display": true,
+          "text": "Godina"
+        }
+      }
+    }
+  }
+}
